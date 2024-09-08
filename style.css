@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-part{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    color: red;
+    font-size: 30px;
+}
+
+nav{
+    padding-top: 20px;
+}
+
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+   margin-right: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: black;
+}
+
+.section-part>img{
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.div1{
+    background-color: red;
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 10px;
+    border: 5px solid black;
+    color: white;
+}
+.div2{
+    background-color: red;
+    height: 300px;
+    width: 49%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+    border-radius: 10px;
+    border:5px solid black;
+    color: white;
+}
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
+}
+
+.date,
+.day{
+   background-color: black; 
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 1.5em;
+}
+
+.day{
+    background-color: black;
+    font-size: 1.5em;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.day:hover{
+    color: green;
+}
+
+.date:hover{
+    color: orange;
+}
+
+.gradient-style{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to left, red, green);
+}
+
+.gradient-style{
+    height: 400px;
+    width: 100%;
+    background-image: radial-gradient(circle,red,green,orange,black);
+}
+
+#section1{
+    float: left;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#section2{
+    float: right;
+    background-color: red;
+    margin-top: 10px;
+}
+
+#clear-div{
+    clear: both;
+}
+
+#section3{
+    background-color: orange;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div{
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.div5{
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h4{
+    text-align: center;
+    background-color: red;
+    width: 1015px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+}
