@@ -50,29 +50,6 @@ nav>ul>li>a{
     border-radius: 5px;
 }
 
-.div1{
-    background-color: red;
-    height: 300px;
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-    float: left;
-    border-radius: 10px;
-    border: 5px solid black;
-    color: white;
-}
-.div2{
-    background-color: red;
-    height: 300px;
-    width: 49%;
-    padding: 20px;
-    box-sizing: border-box;
-    float: right;
-    border-radius: 10px;
-    border:5px solid black;
-    color: white;
-}
-
 .calendar{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -121,6 +98,7 @@ h3{
     height: 400px;
     width: 100%;
     background-image: linear-gradient(to left, red, green);
+    border-radius: 5px;
 }
 
 .gradient-style{
@@ -133,12 +111,16 @@ h3{
     float: left;
     background-color: green;
     margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 #section2{
     float: right;
     background-color: red;
     margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 #clear-div{
@@ -151,30 +133,66 @@ h3{
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
-}
-
-.div{
-    width: 1000px;
-    margin: 0 auto;
-    border: 2px solid red;
-    padding: 5px;
     border-radius: 5px;
 }
 
-.div5{
+.e1{
     width: 1000px;
-    margin: 0 auto;
-    border: 2px solid green;
-    padding: 5px;
+    border: 3px solid red;
+    padding: 10px;
     border-radius: 5px;
+    margin: 0 auto;
+}
+
+.e2{
+    max-width: 1000px;
+    border: 5px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 h4{
     text-align: center;
     background-color: red;
-    width: 1015px;
+    width: 1005px;
     margin: 0 auto;
+    padding: 10px;
     margin-bottom: 10px;
-    color: white;
     border-radius: 5px;
+}
+
+.div1{
+    background-color: red;
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.div2{
+background-color: red;
+height: 300px;
+width: 49%;
+box-sizing: border-box;
+float: right;
+border: 5px solid green;
+border-radius: 10px;
+color: white;
+font-size: 17px;
+}
+
+.div5>img{
+    height: 400px;
+    width: 300px;
+    opacity: 0.3;
+}
+
+img:hover{
+    opacity: 1;
 }
